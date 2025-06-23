@@ -1,0 +1,403 @@
+:root {
+  --font-family: "Manrope", sans-serif;
+  --second-family: "Inter", sans-serif;
+  --third-family: "Font Awesome 5 Brands", sans-serif;
+}
+
+/* #nav{
+  background: radial-gradient(
+      circle at bottom right,
+      #a0f0cf 0%,
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at top left,
+      #f5c1ff 0%,
+      transparent 40%
+    ),
+    linear-gradient(
+      120deg,
+      #e0f7ff,
+      #ffffff,
+      #ffe0f0
+    );
+  background-blend-mode: screen;
+} */
+
+ 
+/*-------- nav css start ----------*/
+
+
+#nav
+{
+  background-image: url(../images/Group\ 2.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  
+}
+
+
+
+.navbar 
+{
+ border-bottom: 1px solid rgba(102, 102, 102, 0.16);
+}
+
+
+
+nav  ul .nav-link 
+{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #1c1d20;
+padding: 23px 0;
+margin: 0 22px;
+}
+
+nav  ul .nav-link:hover 
+{
+    color: cyan;
+}
+
+/* nav .container ul .shape 
+{
+   
+    transform: rotate(90deg);
+
+} */
+
+nav  ul .nav-link  .arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  position: relative;
+  padding: 4px;
+  bottom: 3px;
+  margin-left: 10px;
+  line-height: 0;
+}
+
+nav ul .nav-link  .down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  
+}
+
+nav  .hire{
+    text-decoration: none;
+    background: #1c1d20;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #fff;
+padding: 9px 30px;
+border-radius: 100px;
+}
+
+nav .hire:hover 
+{
+    color: #000;
+    background: transparent;
+    outline: 1px solid #1c1d20;
+}
+
+#nav .banner .box
+{
+  padding-top: 160px;
+  padding-bottom: 40px;
+  
+}
+
+.banner .box .contains img 
+{
+  line-height: 0;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+}
+
+.banner .box .contains .txt 
+{
+  font-family: var(--second-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 144%;
+letter-spacing: 0.03em;
+color: #1c1d20;
+margin-left: 12px;
+margin-bottom: 0;
+
+}
+
+/* #nav .banner .row 
+{
+  margin-top: 33px;
+} */
+
+
+
+
+#nav .banner .box .heading
+{
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 75px;
+line-height: 108%;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+color: #1c1d20;
+margin: 12px 0 17px 0;
+}
+
+#nav .banner .box .heading .web 
+{
+  color: #666;
+}
+
+#nav .banner .box> p 
+{
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+color: #666;
+margin-bottom: 43px;
+}
+
+#nav .banner .box .download 
+{
+  border-radius: 100px;
+  background: #28e98c;
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #1c1d20;
+padding: 17px 30px;
+text-decoration: none;
+display: inline-flex;
+}
+
+#nav .banner .box .download:hover 
+{
+  background: transparent;
+  outline: 1px solid #28e98c;
+
+}
+
+#nav .banner .box .reel
+{
+    display: inline-flex;
+  align-items: center;
+  height: 56px; 
+  padding-right: 60px; 
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #1c1d20;
+  margin-left: 20px;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+#nav .banner .box .reel:hover 
+{
+  color: blue;
+  
+  
+}
+
+#nav .banner .box .playreel
+{
+  padding: 16px 0;
+}
+
+/* #nav .banner .box .buttons
+{
+  background: red;
+} */
+
+#nav .banner .box .reel .play 
+{
+  color: #28E98C;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  border: 1px solid rgba(102, 102, 102, 0.16);
+  border-radius: 50%;
+  padding: 12px ;
+  
+}
+
+#nav .banner .box .reel .play:hover
+{
+  border: 1px solid blue;
+  color: blue;
+}
+
+/* #nav .banner .box .a:first-of-type
+{
+  margin-right: 15px;
+} */
+
+#nav .banner .txt-list ul li a
+{
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-family: var(--second-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 186%;
+letter-spacing: 0.04em;
+color: #666;
+display: inline-block;
+position: relative;
+
+}
+
+#nav .banner .txt-list ul li a:hover 
+{
+  
+color: #1c1d20;
+}
+
+#nav .banner .txt-list ul li a::before 
+{
+  content:"";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background: #28E98C;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#nav .banner .txt-list ul li a:hover::before
+{
+  opacity: 1;
+  visibility: visible;
+  width: 60%;
+}
+
+
+#nav .banner .txt-list
+{
+  position: static;
+  margin-bottom: -358px;
+}
+
+#nav .banner .txt-list ul
+{
+  list-style-type: none;
+  transform: rotate(270deg);
+  /* position: static; */
+  /* margin-top: 24px;
+  margin-bottom: 0; */
+  /* margin-top: 34px; */
+  
+}
+
+#nav .banner .banner-img 
+{
+  position: relative;
+}
+
+#nav .banner .banner-img .loop
+{
+  position: absolute;
+  top: 55px;
+  right: -123px;
+
+}
+
+/*-------- nav css end ----------*/
+
+/*-------- solution css start ----------*/
+#solution
+{
+  background: #1e1e1e;
+}
+
+#solution .contains .txt 
+{
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 32px;
+line-height: 132%;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #fff;
+margin-bottom: 0;
+margin-left: 16px;
+padding: 29px 0;
+}
+
+#solution .contains
+{
+  margin-right: 59px;
+}
+
+/*-------- solution css end ----------*/
+
+/*-------- about css start ----------*/
+
+#about
+{
+  padding-top: 90px;
+  background-image: url('../images/about.png');
+  background-position: cover;
+}
+
+#about .details .contains .txt 
+{
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0.03em;
+color: #1c1d20;
+margin-bottom: 0;
+margin-left: 10px;
+} 
+
+#about .details> h2 
+{
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 48px;
+line-height: 116%;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+color: #1c1d20;
+}
+
+#about .details> h2 .design 
+{
+  color: #28e98c;
+}
+
+/* #about .about-img img
+{
+  position: static;
+  margin-left: 61px;
+  margin-top: 86px;
+
+} */
+
+/*-------- about css end ----------*/

@@ -1,0 +1,51 @@
+@media(max-width:992px)
+{
+    #nav .banner .box .heading
+    {
+        font-size: 36px;
+    }
+
+     #nav .banner .box
+     {
+        text-align: center;
+        padding-top: 20px;
+        
+     }
+
+     #nav .banner .box .contains 
+     {
+        justify-content: center;
+     }
+
+     /* #nav .banner .box .buttons
+    {
+        text-align: center;
+    }  */
+
+     #nav .banner .box .reel
+     {
+        /* margin-left: 20px; */
+        margin-top: 20px;
+     }
+
+     #nav .banner .banner-img .loop
+     {
+        display: none;
+     }
+
+     #nav .banner .box> p 
+     {
+        margin-bottom: 20px;
+     }
+
+     .banner .box .contains .txt
+     {
+        font-size: 22px;
+     }
+     
+
+     
+
+
+
+}
