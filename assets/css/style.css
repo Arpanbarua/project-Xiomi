@@ -27,6 +27,11 @@
  
 /*-------- nav css start ----------*/
 
+/* body 
+{
+  overflow: hidden;
+} */
+
 
 #nav
 {
@@ -350,7 +355,7 @@ padding: 29px 0;
 
 #solution .contains
 {
-  margin-right: 59px;
+  margin-right: 40px;
 }
 
 /*-------- solution css end ----------*/
@@ -363,6 +368,17 @@ padding: 29px 0;
   background-image: url('../images/about.png');
   background-position: cover;
 }
+
+#about .about-img 
+{
+  text-align: center;
+}
+
+/* #about .container 
+{
+  background-image: url('../images/about.png');
+  background-position: cover;
+} */
 
 #about .details .contains .txt 
 {
@@ -385,6 +401,7 @@ line-height: 116%;
 letter-spacing: 0.01em;
 text-transform: capitalize;
 color: #1c1d20;
+margin: 6px 0 12px 0;
 }
 
 #about .details> h2 .design 
@@ -392,12 +409,129 @@ color: #1c1d20;
   color: #28e98c;
 }
 
-/* #about .about-img img
+#about .details> p
 {
-  position: static;
-  margin-left: 61px;
-  margin-top: 86px;
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.03em;
+color: #666;
+margin-bottom: 28px;
+}
 
+/* #about .boxes .box:first-of-type
+{
+  margin-right: 70px;
 } */
+
+#about .boxes .box p
+{
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 145%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #1c1d20;
+margin-bottom: 0;
+}
+
+#about .boxes .box h4
+{
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 48px;
+line-height: 116%;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+color: #1c1d20;
+margin-right: 10px;
+margin-bottom: 0;
+}
+
+#about .boxes
+{
+  margin-bottom: 46px;
+}
+
+#about .about-links a:first-child
+{
+  background: #28e98c;
+  border-radius: 100px;
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #1c1d20;
+padding: 17px 30px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+}
+
+#about .about-links a:first-child:hover 
+{
+  background: transparent;
+  outline: 2px solid #28e98c;
+}
+
+#about .about-links .call
+{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  border: 1px solid rgba(102, 102, 102, 0.16);
+border-radius: 50%;
+padding: 14px 19px;
+}
+
+#about .about-links .contains
+{
+  margin-left: 20px;
+}
+
+#about .about-links .contains:hover 
+{
+  color: #28E98C;
+}
+
+#about .about-links .contains>p
+{
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 145%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #1c1d20;
+margin-left: 10px;
+}
+
+
+
+#about .about-links .contains>p .ph
+{
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.03em;
+color: #666;
+}
+
+#about .about-links .contains>p:hover, #about .about-links .contains>p .ph:hover 
+{
+  color: blue;
+}
+
+
+
+
+
 
 /*-------- about css end ----------*/

@@ -17,10 +17,10 @@
         justify-content: center;
      }
 
-     /* #nav .banner .box .buttons
+     #nav .banner .box .buttons
     {
-        text-align: center;
-    }  */
+        flex-direction: column;
+    } 
 
      #nav .banner .box .reel
      {
@@ -42,8 +42,115 @@
      {
         font-size: 22px;
      }
-     
 
+    #nav .banner .txt-list
+{
+  
+  margin-bottom: -425px;
+} 
+     /*-------- solution css start ----------*/
+     #solution .contains .txt 
+{
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 10px;
+line-height: 100%;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #fff;
+margin-bottom: 0;
+margin-left: 5px;
+padding: 10px 0;
+}
+
+#solution .contains
+{
+  margin-right: 30px;
+}
+     /*-------- solution css end ----------*/
+
+   /*-------- about css start ----------*/
+   #about .boxes .box:last-of-type
+   {
+      margin: 20px 0 ;
+   }
+
+   #about .details>h2, #about .details>p
+   {
+      text-align: center;
+   }
+
+   #about .details .contains 
+   {
+      justify-content: center;
+   }
+ 
+   #about .details .boxes
+   {
+      padding: 0 60px;
+   }
+   
+
+    #about .details .boxes .clients
+    {
+      padding-left: 18px;
+    }
+
+     #about .details>h2 
+     {
+      font-size: 36px;
+     }
+
+     #about .boxes .box:first-of-type h4 
+{
+  margin-right: 0;
+}
+
+#about .boxes .box:first-of-type p
+{
+  padding-left: 20px;
+}
+
+#about
+{
+   padding: 30px 0;
+}
+
+/* #about .about-links
+{
+   justify-content: space-between;
+} */
+/* 
+#about .about-links a:first-child
+{
+   padding: 17px 30px;
+} */
+
+/* #about .about-links .contains
+{
+   padding: 0 20px;
+} */
+
+#about .about-links 
+{
+   flex-direction: column;
+   align-items: center;
+   gap: 15px;
+   justify-content: center;
+}
+
+#about .about-links .contains
+{
+   margin-left: 0;
+   margin: 10px 0 20px 0;
+}
+
+#about .boxes
+{
+  margin-bottom: 10px;
+}
+
+   /*-------- about css end ----------*/
      
 
 
