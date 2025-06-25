@@ -37,7 +37,8 @@
 {
   background-image: url(../images/Group\ 2.png);
   background-repeat: no-repeat;
-  background-position: cover;
+  background-position: center;
+  background-size: cover;
   
 }
 
@@ -229,10 +230,12 @@ display: inline-flex;
   padding: 16px 0;
 }
 
-/* #nav .banner .box .buttons
+#nav .banner .box .buttons
 {
-  background: red;
-} */
+  
+  display: flex;
+  align-items: center;
+} 
 
 #nav .banner .box .reel .play 
 {
@@ -366,19 +369,10 @@ padding: 29px 0;
 {
   padding-top: 90px;
   background-image: url('../images/about.png');
-  background-position: cover;
+  background-position: ;
 }
 
-#about .about-img 
-{
-  text-align: center;
-}
 
-/* #about .container 
-{
-  background-image: url('../images/about.png');
-  background-position: cover;
-} */
 
 #about .details .contains .txt 
 {
