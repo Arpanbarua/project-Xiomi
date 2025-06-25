@@ -196,7 +196,7 @@ display: inline-flex;
 #nav .banner .box .download:hover 
 {
   background: transparent;
-  outline: 1px solid #28e98c;
+  outline: 1px solid #000;
 
 }
 
@@ -368,8 +368,10 @@ padding: 29px 0;
 #about
 {
   padding-top: 90px;
-  background-image: url('../images/about.png');
-  background-position: ;
+  /* background-image: url('../images/about.png') no-repeat; */
+  background-position: center ;
+  background-size: cover;
+
 }
 
 
@@ -447,6 +449,7 @@ margin-bottom: 0;
 #about .boxes
 {
   margin-bottom: 46px;
+  width: 90%;
 }
 
 #about .about-links a:first-child
@@ -521,6 +524,18 @@ color: #666;
 #about .about-links .contains>p:hover, #about .about-links .contains>p .ph:hover 
 {
   color: blue;
+}
+
+#about .details 
+{
+  position: relative;
+}
+
+#about .details .star 
+{
+  position: absolute;
+  top: 24px;
+  right: 7px;
 }
 
 
