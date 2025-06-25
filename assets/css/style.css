@@ -368,9 +368,7 @@ padding: 29px 0;
 #about
 {
   padding-top: 90px;
-  /* background-image: url('../images/about.png') no-repeat; */
-  background-position: center ;
-  background-size: cover;
+  
 
 }
 
@@ -442,14 +440,19 @@ line-height: 116%;
 letter-spacing: 0.01em;
 text-transform: capitalize;
 color: #1c1d20;
-margin-right: 10px;
+margin-right: 12px;
 margin-bottom: 0;
 }
 
 #about .boxes
 {
   margin-bottom: 46px;
-  width: 90%;
+  /* width: 90%; */
+}
+
+#about .boxes .box:first-child
+{
+  margin-right: 45px;
 }
 
 #about .about-links a:first-child
