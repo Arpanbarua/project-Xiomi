@@ -542,8 +542,193 @@ color: #666;
 }
 
 
-
-
-
-
 /*-------- about css end ----------*/
+
+/*-------- service css start ----------*/
+#service 
+{
+  background: #1c1d20;
+  padding: 120px 0;
+}
+
+#service .contains
+{
+  margin-bottom: 12px;
+}
+
+#service .contains p
+{
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-align: center;
+color: #fff;
+margin-left: 10px;
+
+}
+
+#service .container>h4 
+{
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 48px;
+line-height: 116%;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+text-align: center;
+color: #fff;
+margin-bottom: 25px;
+}
+
+#service .container>h4 .green 
+{
+  color: #28e98c;
+}
+
+#service .box
+{
+  padding: 28px 0;
+  border: 1px solid rgba(102, 102, 102, 0.24);
+border-radius: 16px;
+margin-bottom: 20px ;
+}
+
+#service .box:last-of-type 
+{
+  margin-bottom: 0;
+}
+
+#service .box .col-xl-1
+{
+  text-align: center;
+}
+
+#service .box .icon 
+{
+  color: #28E98C;
+  border: 1px solid #28e98c;
+  border-radius: 50%;
+  /* padding: 11px; */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(45deg);
+  text-align: right;
+} 
+
+#service .box .icon:hover 
+{
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+#service .box .txt 
+{
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.03em;
+color: #bbbcbc;
+margin-bottom: 0;
+}
+
+#service .box .title 
+{
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #fff;
+margin-bottom: 0;
+}
+
+#service .box .no
+{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 130%;
+letter-spacing: 0.03em;
+color: #666;
+}
+
+
+/*-------- service css end ----------*/
+
+/*-------- project css start ----------*/
+
+#project
+{
+  padding: 60px 0;
+}
+
+#project .contains
+{
+  margin-bottom: 12px;
+}
+
+#project .contains p
+{
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0.03em;
+color: #1c1d20;
+margin-left: 10px;
+}
+
+#project .heading h4 
+{
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 48px;
+line-height: 116%;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+color: #1c1d20;
+}
+
+#project .heading
+{
+  justify-content: space-between;
+}
+
+#project .heading h4 span
+{
+  color: #28e98c;
+}
+
+#project .heading a
+{
+  display: inline-block;
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #1c1d20;
+padding: 17px 30px;
+text-decoration: none;
+background: #28e98c;
+border-radius: 100px;
+
+}
+
+#project .heading a:hover 
+{
+  background: transparent;
+  outline: 2px solid #28e98c;
+}
+
+
+
+
+
+/*-------- project css end ----------*/
