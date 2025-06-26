@@ -262,8 +262,161 @@
    text-align: center;
 }
 
+#experience .boxes 
+{
+   flex-direction: column;
+   margin-bottom: 30px;
+}
+
+#experience .boxes .box 
+{
+  border-right: none;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.24);
+}
+
+#experience .boxes .box:last-of-type 
+{
+   border-bottom: none;
+}
+
+#experience
+{
+  padding: 40px 0;
+}
+
+#experience .contains .shape 
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.5;
+}
 
 /*-------- experience css end ----------*/
+
+/*-------- awards css start ----------*/
+
+
+#awards .row .details 
+{
+  
+   padding: 10px;
+}
+
+#awards .row .details .contains p:first-of-type
+{
+   font-size: 16px;
+}
+
+#awards .row .details .contains
+{
+  padding-left: 19px;
+}
+
+#awards .row .details .contains p:last-of-type
+{
+   font-size: 14px;
+}
+
+#awards .box .creative .contains
+{
+  padding-left: 15px;
+}
+
+#awards .row .heading 
+{
+   text-align: center;
+   font-size: 28px;
+   margin-bottom: 20px;
+   
+}
+
+#awards
+{
+  padding: 40px 0;
+}
+
+
+#awards .container .contains 
+{
+   justify-content: center;
+}
+
+/*-------- awards css end ----------*/
+
+/*-------- pricing css start ----------*/
+
+#pricing
+{
+   padding: 40px 0;
+}
+
+#pricing .row 
+{
+  padding-top: 25px;
+}
+
+#pricing .container>h4
+{
+   font-size: 30px;
+}
+
+#pricing .card-box 
+{
+ 
+  width: calc(100% - 24px);
+ 
+}
+
+#pricing .card-box .start
+{
+   padding: 18px 40px;
+}
+/*-------- pricing css end ----------*/
+
+/*-------- testimonial css start ----------*/
+#testimonial {
+  padding: 40px 0;
+  
+}
+
+#testimonial .details
+{
+   justify-content: center;
+}
+
+#testimonial .contains
+{
+   justify-content: center;
+}
+
+#testimonial .heading 
+{
+   font-size: 30px;
+   text-align: center;
+}
+
+#testimonial .details
+{
+   width: 90%;
+   
+}
+
+#testimonial .row .col-xl-7 .shape {
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  opacity: 0.5;
+}
+
+#testimonial .stack-img
+{
+   margin-top: 40px;
+}
+
+/*-------- testimonial css end ----------*/
+
+
 
 
 
