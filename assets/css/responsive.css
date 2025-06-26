@@ -198,6 +198,8 @@
    padding: 40px 0;
 }
 
+
+
 #project .contains 
 {
    justify-content: center;
@@ -219,11 +221,49 @@
    margin-top: 15px;
 }
 
+#project .row .card 
+{
+   width: calc( 100% - 24px);
+}
 
+#project .card .contains .heading p:last-of-type
+{
+   font-size: 20px;
+}
+
+#project .row
+{
+  margin-top: 25px;
+}
 
 
 /*-------- project css end ----------*/
 
+/*-------- experience css start ----------*/
+#experience .details p:nth-of-type(2)
+{
+   font-size: 18px;
+   margin: 10px 0;
+}
+
+#experience .exp-list
+{
+  margin-top: 10px;
+}
+
+#experience .container> h4 
+{
+   font-size: 32px;
+   margin-top: 14px;
+}
+#experience .details 
+{
+   flex-direction: column;
+   text-align: center;
+}
+
+
+/*-------- experience css end ----------*/
 
 
 
