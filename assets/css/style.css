@@ -4,6 +4,11 @@
   --third-family: "Font Awesome 5 Brands", sans-serif;
 }
 
+body 
+{
+  font-family: var(--second-family);
+}
+
 /* #nav{
   background: radial-gradient(
       circle at bottom right,
@@ -81,6 +86,39 @@ nav ul .nav-link .arrow {
   bottom: 3px;
   margin-left: 10px;
   line-height: 0;
+}
+
+nav ul .downarrow 
+{
+  display: inline-flex;
+  
+  align-items: center;
+  line-height: 0;
+}
+
+nav ul .nav-link 
+{
+  display: flex;
+  align-items: center;
+}
+
+nav .dropdown-menu li a 
+{
+  
+  padding: 15px 14px;
+}
+
+nav .dropdown-menu
+{
+  padding-top: 0;
+  --bs-dropdown-spacer: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dropdown-toggle::after
+{
+  display: none;
 }
 
 nav ul .nav-link .down {
@@ -281,18 +319,28 @@ nav .hire:hover {
 }
 
 
-#nav .banner .txt-list {
+/* #nav .banner .txt-list {
   position: static;
   margin-bottom: -358px;
+} */
+
+#nav .banner .txt-list 
+{
+  position: relative;
+}
+
+#nav .banner .txt-list ul 
+{
+  position: absolute;
+  top: 27px;
+  left: -140px;
+  
 }
 
 #nav .banner .txt-list ul {
   list-style-type: none;
   transform: rotate(270deg);
-  /* position: static; */
-  /* margin-top: 24px;
-  margin-bottom: 0; */
-  /* margin-top: 34px; */
+ 
 
 }
 
@@ -819,7 +867,7 @@ nav .hire:hover {
 #experience .contains .shape {
   position: absolute;
   top: 0;
-  right: -93px;
+  right: -68px;
 }
 
 #experience .boxes .box p {
@@ -1203,22 +1251,349 @@ nav .hire:hover {
   width: 10px;
   height: 10px;
   margin: 0 7px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
 }
 
+/* #testimonial .stack-img .boxes .box:before 
+{
+  content: "";
+  position: absolute;
+  left: -3px;
+  bottom: -3px;
+  width: 17px;
+  height: 17px;
+  background: transparent;
+  outline: 1px solid #28e98c;
+  border-radius: 50%;
+  padding: 6px;
+  opacity: 0;
+  visibility: hidden;
 
+}
+
+#testimonial .stack-img .boxes .box:hover::before
+{
+  opacity: 1;
+  visibility: visible;
+} */
+
+/* #testimonial .stack-img .boxes .wrapper 
+{
+  width: 20px ;
+  height: 20px;
+  background-color: transparent;
+} */
 
 #testimonial .stack-img .boxes .box:nth-of-type(2) {
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
+  
   background: #28e98c;
-  border: 1px solid #28E98C;
-  padding: 6px;
+  
+  
 }
 
-
-
+#testimonial .stack-img .boxes .box:nth-of-type(2)::before
+{
+  content: "";
+  position: absolute;
+  left: -4px;
+  bottom: -4px;
+  width: 18px;
+  height: 18px;
+  background: transparent;
+  outline: 1px solid #28e98c;
+  border-radius: 50%;
+  padding: 6px;
+  opacity: 1;
+  visibility: visible;
+}
 
 
 /*-------- testimonial css end ----------*/
+
+
+/*-------- blog css start ----------*/
+
+#blog 
+{
+  padding: 120px 0;
+}
+
+#blog .contains p 
+{
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-align: center;
+color: #1c1d20;
+}
+
+#blog .contains 
+{
+  margin-bottom: 7px;
+
+}
+
+#blog .container>h4
+{
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 48px;
+line-height: 116%;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+text-align: center;
+color: #1c1d20;
+}
+
+#blog .card 
+{
+  border: 1px solid rgba(102, 102, 102, 0.24);
+border-radius: 16px;
+width: calc( 33.33% - 25px);
+margin: 12.5px;
+}
+
+#blog .card img 
+{
+  border-radius: 16px 16px 0 0;
+  
+} 
+
+#blog .card .card-body
+{
+  margin-top: 16px;
+  padding-top: 0;
+  padding-left: 21px;
+  padding-bottom: 22px;
+  
+}
+
+#blog .card .card-body .heading 
+{
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #1c1d20;
+margin: 7px 0 19px 0;
+
+}
+
+
+
+#blog .card .card-body .arrow 
+{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+transform: rotate(45deg);
+border: 1px solid #28e98c;
+border-radius: 100px;
+padding: 10px;
+
+}
+
+/* viewport larger than 1300 */
+/* #blog .card:nth-of-type(1) .card-body .arrow 
+{
+  margin-top: 26px;
+} */
+
+
+
+#blog .card .card-body .arrow:hover 
+{
+  transform: rotate(90deg);
+}
+
+#blog .card .card-body a 
+{
+  text-decoration: none;
+  color: #666666;
+}
+
+
+#blog .card .title 
+{
+  margin-left: 24px;
+}
+
+#blog .card .title-box span 
+{
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.03em;
+color: #28e98c;
+display: inline-block;
+}
+
+#blog .card .title p 
+{
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.03em;
+color: #666;
+margin-bottom: 0;
+margin-left: 3px;
+}
+
+#blog .card .title .box 
+{
+ background: #666;
+ border-radius: 50%;
+width: 5px;
+height: 5px;
+display: inline-block;
+
+}
+
+#blog .row 
+{
+  margin: 50px 0;
+}
+
+#blog .blog-link a 
+{
+  border-radius: 100px;
+  background: #28e98c;
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+text-align: center;
+color: #1c1d20;
+padding: 17px 30px;
+text-decoration: none;
+}
+
+
+/*-------- blog css end ----------*/
+
+/*-------- footer css start ----------*/
+#footer 
+{
+ padding-bottom: 40px; 
+  background: #1c1d20;
+}
+
+#footer .service_contact .service h5 
+{
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #fff;
+margin-bottom: 23px;
+}
+
+#footer .service_contact .service p
+{
+  margin-bottom: 0;
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.03em;
+color: #bbbbbc;
+}
+
+#footer .service_contact .contact p 
+{
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.03em;
+color: #bbbbbc;
+margin-bottom: 0;
+}
+
+#footer .service_contact .contact h5
+{
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #fff;
+
+margin-bottom: 23px
+} 
+
+#footer .service_contact
+{
+  padding-bottom: 23px;
+  border-bottom: 1px solid #3a3a3c;
+}
+
+#footer .left
+{
+    border-right: 1px solid #3a3a3c;
+    border-bottom: 1px solid #3a3a3c;
+    padding-top: 90px;
+} 
+
+#footer .left .social p 
+{
+  margin-bottom: 0;
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #fff;
+}
+
+#footer .left .social .icons span
+{
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  color: #fff;
+  border: 1px solid rgba(102, 102, 102, 0.24);
+border-radius: 100px;
+padding: 12px;
+margin-right: 10px;
+}
+
+#footer .left .social .icons span:last-of-type
+{
+  margin-right: 0;
+}
+
+#footer .left .social .icons
+{
+  margin-left: 24px;
+}
+
+#footer .left .social
+{
+  padding-top: 27px;
+  padding-bottom: 106px;
+  
+
+}
+
+/*-------- footer css end ----------*/
+
