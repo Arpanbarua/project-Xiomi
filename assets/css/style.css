@@ -1483,6 +1483,12 @@ padding: 17px 30px;
 text-decoration: none;
 }
 
+#blog .blog-link a:hover 
+{
+  background: transparent;
+  outline: 1px solid #28e98c;
+}
+
 
 /*-------- blog css end ----------*/
 
