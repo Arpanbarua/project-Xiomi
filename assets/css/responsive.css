@@ -1,4 +1,277 @@
+@media(min-width: 993px) and (max-width:1200px)
+{
+
+   /*-------- nav banner css start ----------*/
+   
+   #nav .banner .banner-img .loop
+   {
+      display: none;
+   }
+
+   #nav .banner .box
+   {
+      text-align: center;
+      padding-top: 50px;
+   }
+   #nav .banner .box .contains 
+   {
+      justify-content: center;
+   }
+
+   #nav .banner .box .buttons 
+   {
+      justify-content: center;
+   }
+/*-------- nav banner css end ----------*/
+
+
+/*-------- about css start ----------*/
+#about .details 
+{
+   text-align: center;
+}
+
+#about .details>h2
+{
+   margin-bottom: 20px;
+}
+
+#about .details .contains, #about .details .boxes
+{
+   justify-content: center;
+}
+
+#about .details .about-links
+{
+   justify-content: center;
+   margin-bottom: 40px;
+}
+
+#about .about-img 
+{
+   text-align: center;
+}
+
+/*-------- about css end ----------*/
+
+/*-------- service css start ----------*/
+
+#service .box 
+{
+   text-align: center;
+}
+
+#service .box .title
+{
+   margin: 10px 0;
+}
+
+#service .box .txt
+{
+   margin-bottom: 15px;
+}
+/*-------- service css end ----------*/
+
+/*-------- experience css start ----------*/
+#experience .contains .shape
+{
+   right: -22px;
+}
+/*-------- experience css end ----------*/
+
+
+
+
+/*-------- awards css start ----------*/
+#awards .contains_
+{
+   justify-content: center;
+}
+
+#awards .row .heading
+{
+   margin: 20px 0;
+   text-align: center;
+}
+
+#awards .box:nth-of-type(3) .contains 
+{
+   padding-right: 20px;
+}
+
+/*-------- awards css end ----------*/
+
+/*-------- pricing css start ----------*/
+#pricing .card-box .start
+{
+   padding: 18px ;
+}
+
+#pricing .card-box h4:first-of-type
+{
+   text-align: center;
+   margin-top: 10px;
+}
+
+#pricing .card-box .popular
+{
+   text-align: center;
+}
+/*-------- pricing css end ----------*/
+
+/*-------- testimonial css start ----------*/
+#testimonial .container .contains 
+{
+   justify-content: center;
+}
+
+#testimonial .heading
+{
+   text-align: center;
+}
+
+#testimonial .details
+{
+   
+   margin-left: 30%;
+}
+
+#testimonial .stack-img
+{
+   text-align: center;
+} 
+/*-------- testimonial css end ----------*/
+
+/*-------- blog css start ----------*/
+#blog .card .title-box span, #blog .card .title p
+{
+   font-size: 15px;
+}
+/*-------- blog css end ----------*/
+
+/*-------- footer css start ----------*/
+#footer .service_contact .service, #footer .service_contact .contact
+{
+   text-align: center;
+}
+
+#footer .service_contact .contact
+{
+   margin-top: 20px;
+}
+
+#footer .left .social
+{
+   justify-content: center;
+   padding-bottom: 40px;
+}
+
+#footer .left
+{
+   border-right: 0;
+}
+
+#footer .right
+{
+   padding-top: 10px;
+}
+
+#footer .right .row 
+{
+   justify-content: center;
+   padding-left: 16%;
+   padding-bottom: 20px;
+}
+
+#footer .left .service_contact .service .shape
+{
+  
+  left: 26px;
+   top: -8px;
+
+}
+
+/*-------- footer css end ----------*/
+
+
+}
+
+
 @media(max-width:992px) {
+ 
+   /*-------- offcanvas css start ----------*/
+   
+   .offcanvas 
+   {
+      width: 100%;
+      max-width: 350px;
+      background: #dfe6e9;
+   }
+
+   .offcanvas .offcanvas-header img 
+   {
+      padding-left: 70px;
+      margin-top: 10px;
+   }
+
+   .offcanvas .offcanvas-body ul .nav-link {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #1c1d20;
+  padding: 23px 0;
+  margin: 0 22px;
+  
+}
+
+ .offcanvas .offcanvas-body ul li 
+ {
+   border: 1px solid black;
+   border-radius: 12px;
+   margin-bottom: 10px;
+ }
+
+ .offcanvas .offcanvas-body ul li .dropdown-menu li 
+ {
+   border: none;
+ }
+
+ .offcanvas .offcanvas-body ul li .dropdown-menu
+ {
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+ .offcanvas .offcanvas-body ul .downarrow 
+{
+  display: none;
+}
+
+ .offcanvas .offcanvas-body ul .nav-link 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+   /*-------- offcanvas css end ----------*/
+
+   #nav .navbar-toggler
+   {
+      border: none;
+      outline: none;
+      background: transparent;
+   }
+
+   #nav .button 
+   {
+      line-height: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+   }
 
    .navbar {
    border-bottom: none;
@@ -327,9 +600,20 @@
    font-size: 16px;
 }
 
-#awards .row .details .contains
+#awards .box .details .contains
 {
   padding-left: 19px;
+}
+
+#awards .box:nth-of-type(4) .contains 
+{
+   padding-left: 23px;
+}
+
+#awards .box .four
+{
+   padding-right: 13%;
+   
 }
 
 #awards .row .details .contains p:last-of-type
@@ -356,7 +640,7 @@
 }
 
 
-#awards .container .contains 
+#awards .container .contains_
 {
    justify-content: center;
 }
@@ -391,6 +675,13 @@
 {
    padding: 18px 40px;
 }
+
+#pricing .card-box h4:first-of-type
+{
+   text-align: center;
+   margin-top: 10px;
+}
+
 /*-------- pricing css end ----------*/
 
 /*-------- testimonial css start ----------*/
@@ -476,6 +767,145 @@ width: 100%;
 
 
 /*-------- blog css end ----------*/
+
+
+/*-------- footer css start ----------*/
+
+
+#footer .left
+{
+   padding-top: 35px;
+   padding-right: 0;
+   border-right: none;
+   
+} 
+
+#footer .right
+{
+   padding-top: 20px;
+   padding-right: 0;
+   padding-left: 0;
+   
+   
+} 
+
+#footer .right .row 
+{
+   justify-content: center;
+   width: 95%;
+   margin-left: 10px;
+
+}
+
+#footer .left .service_contact
+{
+   
+   border-bottom: none;
+   padding-bottom: 0;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+#footer .service_contact .contact
+{
+   padding-bottom: 0;
+   padding-left: 0;
+   text-align: center;
+   margin-top: 20px;
+   
+}
+
+#footer .service_contact .service 
+{
+   text-align: center;
+   padding-left: 0;
+   
+
+}
+
+/* #footer .service_contact .contact h5, #footer .service_contact .contact p 
+{
+   display: inline-block;
+   
+} */
+
+
+#footer .service_contact .contact h5, #footer .service_contact .service h5
+{
+   font-size: 20px;
+}
+
+#footer .service_contact .contact p, #footer .service_contact .service p
+{
+   font-size: 14px;
+}
+
+#footer .service_contact .contact h5
+{
+  
+margin-bottom: 15px;
+} 
+
+#footer .left .social
+{
+  /* padding-top: 27px; */
+  padding: 20px 0;
+  justify-content: center;
+}
+
+#footer .left .social p 
+{
+   font-size: 20px;
+}
+ 
+
+
+#footer .right .box:first-of-type
+{
+  margin-left: 0;
+  
+}
+
+#footer .footer_two .terms
+{
+   justify-content: center;
+}
+
+#footer .footer_two .least-footer
+{
+   flex-direction: column;
+}
+
+#footer .footer_two .least-footer .footer-img
+{
+   margin: 20px 0;
+}
+
+#footer .footer_two
+{
+  padding: 30px 0;
+  border-top: none
+}
+
+#footer .right .two .star
+{
+  
+  top: 0;
+  right: -14px;
+  opacity: 0.2;
+}
+
+#footer .left .service_contact .service .shape
+{
+  opacity: 0.5;
+  left: -1px;
+   top: -8px;
+
+}
+
+
+/*-------- footer css end ----------*/
+
 
 
 

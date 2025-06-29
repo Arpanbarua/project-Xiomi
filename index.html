@@ -25,10 +25,9 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <img src="./assets/images/Link.png" alt="logo" class="img-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                     <span class="button"><iconify-icon icon="majesticons:menu" width="24" height="24"></iconify-icon></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
@@ -140,12 +139,87 @@
     <!-- =====  nav section end    ===== -->
 
 
+<!-- =====  offcanvas section start  ===== -->
+ <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <img src="./assets/images/Link.png" alt="logo" class="img-fluid">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Home
+                                <span class="downarrow"><iconify-icon icon="fe:arrow-down" width="24"
+                                        height="24"></iconify-icon></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+
+                        <!-- pages -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
+                                <span class="downarrow"><iconify-icon icon="fe:arrow-down" width="24"
+                                        height="24"></iconify-icon></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- blog -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Blog
+                                <span class="downarrow"><iconify-icon icon="fe:arrow-down" width="24"
+                                        height="24"></iconify-icon></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact me</a>
+                        </li>
+
+
+                    </ul>
+  </div>
+</div>
+<!-- =====  offcanvas section end    ===== -->
+
+
+
     <!-- =====  solution section start  ===== -->
 
     <section id="solution">
 
         <div class="d-flex">
-            <div class="contains d-flex align-items-center">
+            <div class="contains d-flex align-items-center justify-content-lg-center">
                 <img src="./assets/images/img.png" alt="icon" class="img-fluid icon">
                 <p class="txt">The Best Solution</p>
             </div>
@@ -464,7 +538,7 @@
 
             <div class="row align-items-center">
                 <div class="col-xl-6">
-                    <div class="d-flex contains align-items-center">
+                    <div class="d-flex contains_ align-items-center">
                         <img src="./assets/images/img.png" alt="star img" class="img-fluid">
                         <p>Awards</p>
                     </div>
@@ -503,7 +577,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-6 box">
+                <!-- <div class="col-xl-6 box">
                     <div class="d-flex details align-items-center justify-content-between">
                         <div class="d-flex align-items-center creative">
                             <img src="./assets/images/creative.png" alt="creative" class="img-fluid">
@@ -514,7 +588,21 @@
                         </div>
                         <img src="./assets/images/award 3.png" alt="award 3" class="img-fluid">
                     </div>
+                </div> -->
+
+                 <div class="col-xl-6 box">
+                    <div class="d-flex details align-items-center justify-content-between">
+                        
+                            <img src="./assets/images/creative.png" alt="creative" class="img-fluid">
+                            <div class="contains four">
+                                <p>Creative Awards</p>
+                                <p>March 26, 2024</p>
+                            </div>
+                      
+                        <img src="./assets/images/award 3.png" alt="award 3" class="img-fluid">
+                    </div>
                 </div>
+
 
                 <div class="col-xl-6 star-award">
                     <img src="./assets/images/star.png" alt="star" class="img-fluid">
@@ -588,7 +676,7 @@
 
                 <!-- 2 -->
                 <div class="col-xl-4 card-box">
-                    <div class="text-end"><span class="popular">Most Popular</span></div>
+                    <div class="text-xl-end text-center"><span class="popular">Most Popular</span></div>
 
                     <h4>Standard Plan</h4>
                     <h4>$2500<span>/Monthly</span></h4>
@@ -749,12 +837,12 @@
                         <h4 class="heading">The Role of Prototyping in UI/UX Design</h4>
 
                         <a href=""><span class="arrow"><iconify-icon icon="typcn:arrow-up" width="24"
-                                height="24"></iconify-icon></span></a>
+                                    height="24"></iconify-icon></span></a>
                     </div>
                 </div>
 
                 <!-- 2 -->
-                 <div class="col-xl-4 card px-0">
+                <div class="col-xl-4 card px-0">
                     <img src="./assets/images/blog c2.png" class="card-img-top img-fluid" alt="blog card 1">
                     <div class="card-body">
                         <div class="d-flex title-box align-items-center">
@@ -767,13 +855,13 @@
 
                         <h4 class="heading">The Psychology Behind Color Choices in UI/UX Design</h4>
 
-                       <a href=""> <span class="arrow"><iconify-icon icon="typcn:arrow-up" width="24"
-                                height="24"></iconify-icon></span></a>
+                        <a href=""> <span class="arrow"><iconify-icon icon="typcn:arrow-up" width="24"
+                                    height="24"></iconify-icon></span></a>
                     </div>
                 </div>
 
                 <!-- 3 -->
-                 <div class="col-xl-4 card px-0 ">
+                <div class="col-xl-4 card px-0 ">
                     <img src="./assets/images/blog c3.png" class="card-img-top img-fluid" alt="blog card 1">
                     <div class="card-body">
                         <div class="d-flex title-box align-items-center">
@@ -786,8 +874,8 @@
 
                         <h4 class="heading">The Importance of User Research in UI/UX Design</h4>
 
-                       <a href=""> <span class="arrow"><iconify-icon icon="typcn:arrow-up" width="24"
-                                height="24"></iconify-icon></span></a>
+                        <a href=""> <span class="arrow"><iconify-icon icon="typcn:arrow-up" width="24"
+                                    height="24"></iconify-icon></span></a>
                     </div>
                 </div>
 
@@ -809,14 +897,15 @@
             <div class="row">
                 <div class="col-xl-6 left">
                     <div class="row service_contact justify-content-between align-items-center">
-                        <div class="col-6 service">
+                        <div class="col-xl-6 service">
                             <h5>Services</h5>
                             <p>Travel World House, Level 7, 17 <br> Jones St, NSW, 2060</p>
+                            <img src="./assets/images/footer left.png" alt="footer left shape" class="img-fluid shape">
                         </div>
-                        <div class="col-4 contact">
+                        <div class="col-xl-4 contact">
                             <h5>Contact</h5>
                             <p>info@dixor.com</p>
-                            <p>+47 333 78 901</p>
+                            <p>+4733378901</p>
                         </div>
                     </div>
 
@@ -826,12 +915,52 @@
                             <span><iconify-icon icon="ri:facebook-fill" width="24" height="24"></iconify-icon></span>
                             <span><iconify-icon icon="uil:twitter" width="24" height="24"></iconify-icon></span>
                             <span><iconify-icon icon="uil:instagram" width="24" height="24"></iconify-icon></span>
-                            <span><iconify-icon icon="akar-icons:linkedin-fill" width="24" height="24"></iconify-icon></span>
+                            <span><iconify-icon icon="akar-icons:linkedin-fill" width="24"
+                                    height="24"></iconify-icon></span>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-xl-6"></div>
+                <div class="col-xl-6 right">
+                    <div class="row ">
+                        <div class="col-6 box">
+                            <p>Useful links</p>
+                            <ul>
+                                <li><a href="#">About Me</a></li>
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-5 box two">
+                            <p>Services</p>
+                            <ul>
+                                <li><a href="#">Moblie App Design</a></li>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">UI/UX Design</a></li>
+                                <li><a href="#">Visual Design</a></li>
+                            </ul>
+                            <img src="./assets/images/star.png" alt="star" class="img-fluid star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_two">
+                <div class="d-flex align-items-center justify-content-between least-footer">
+                    <div class="copy">
+                        <p>Copyright&copy;<span>Xiomi</span></p>
+                    </div>
+                    <div class="footer-img">
+                        <img src="./assets/images/footer logo.png" alt="logo" class="img-fluid">
+                    </div>
+                    
+                        <div class="d-flex terms align align-items-center ">
+                            <p>Terms & Conditions</p>
+                            <p>Privacy Policy</p>
+                        </div>
+                   
+                </div>
             </div>
         </div>
     </section>
