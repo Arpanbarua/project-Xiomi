@@ -314,18 +314,32 @@
       font-size: 22px;
    }
 
-   /* #nav .banner .txt-list {
+   #nav .banner .txt-list {
 
-      margin-bottom: -425px;
-   } */
+      display: none;
+   }
 
-   #nav .banner .txt-list ul 
+   #nav .banner .banner-img
+   {
+     text-align: center;
+     margin-left: 20px;
+      
+   }
+
+  
+
+    /* #nav .banner .banner-img img 
+    {
+      width: 100%;
+    } */
+
+   /* #nav .banner .txt-list ul 
 {
   position: absolute;
       top: 22px;
     left: -136px;
   
-}
+} */
 
  #nav .banner .img-txt 
  {
